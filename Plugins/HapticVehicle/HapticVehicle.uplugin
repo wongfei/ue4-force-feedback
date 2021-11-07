@@ -1,0 +1,32 @@
+{
+    "FileVersion" : 1,
+	
+	"FriendlyName" : "HapticVehicle",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "",
+	"CreatedByURL" : "",
+	"Description" : "",
+	"Category" : "Physics",
+	"EnabledByDefault" : false,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "HapticVehicle",
+			"Type" : "Runtime",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32"
+			]
+		}
+	],
+	
+	"Plugins": [
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": true
+		}
+	]
+}
